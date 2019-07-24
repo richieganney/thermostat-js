@@ -14,4 +14,8 @@ I want to decrease the temperature on my thermostat ✅
 
 As a User
 So I don't get too cold
-I want to have a minimum temperature on my thermostat
+I want to have a minimum temperature on my thermostat ✅
+
+As a User
+So I can try to save the planet
+I want to be able to turn power saving mode on with a maximum temperature of 25 degrees
