@@ -11,3 +11,7 @@ I want to increase the temperature on my thermostat ✅
 As a User
 So I can be colder
 I want to decrease the temperature on my thermostat ✅
+
+As a User
+So I don't get too cold
+I want to have a minimum temperature on my thermostat

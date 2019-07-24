@@ -1,11 +1,11 @@
 describe ('Thermostat', function(){
-    
+
     var thermostat;
-    
+
     beforeEach(function(){
       thermostat = new Thermostat();
     });
-    
+
     it('temperature starts at 20 degrees', function(){
       expect(thermostat.temperature()).toEqual(20)
     });
@@ -19,5 +19,9 @@ describe ('Thermostat', function(){
         thermostat.decrease(5);
         expect(thermostat.temperature()).toEqual(15)
       });
-    
+
+    it('throws an error if decrease below minimum temperature', function(){
+        expect(function(){ thermostat.decrease(11); }).toThrow(new Error("Warning! It's getting nippy in here"));
+      });
+
   });
