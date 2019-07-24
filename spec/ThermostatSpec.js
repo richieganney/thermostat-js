@@ -33,4 +33,10 @@ describe ('Thermostat', function(){
         expect(function(){ thermostat.increase(13); }).toThrow(new Error("Warning! max temp is 32 degrees"));
     });
 
+    it('can reset the temperature to 20', function(){
+        thermostat.increase(5)
+        thermostat.reset();
+        expect(thermostat.temperature()).toEqual(20)
+    });
+
   });

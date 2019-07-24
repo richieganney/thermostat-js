@@ -30,3 +30,11 @@ Thermostat.prototype.decrease = function(decreaseAmount) {
 Thermostat.prototype.powerSaverOff = function() {
   return this._powerSaver = false
 };
+
+Thermostat.prototype.powerSaverOn = function() {
+  return this._powerSaver = true
+};
+
+Thermostat.prototype.reset = function() {
+  return this._temperature = 20
+};

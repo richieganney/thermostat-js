@@ -22,4 +22,8 @@ I want to be able to turn power saving mode on with a maximum temperature of 25 
 
 As a User
 So I can try to destroy the planet
-I want to be able to turn power saving mode off with a maximum temperature of 32 degrees 
+I want to be able to turn power saving mode off with a maximum temperature of 32 degrees ✅
+
+As a User
+So I don't get too confused
+I want to be able to reset my thermostat back to 20
