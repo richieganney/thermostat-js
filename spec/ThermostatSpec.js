@@ -14,10 +14,10 @@ describe ('Thermostat', function(){
       thermostat.increase(5);
       expect(thermostat.temperature()).toEqual(25)
     });
+
+    it('can decrease the temperature', function(){
+        thermostat.decrease(5);
+        expect(thermostat.temperature()).toEqual(15)
+      });
     
   });
-
-
-// As a User
-// So I can be warmer
-// I want to increase the temperature on my thermostat
