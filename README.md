@@ -30,4 +30,4 @@ I want to be able to reset my thermostat back to 20 ✅
 
 As a User
 So I know how much I'm destroying the planet
-I want to know about the thermostats current energy usage
+I want to know about the thermostats current energy usage ✅
