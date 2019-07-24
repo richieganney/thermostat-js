@@ -2,12 +2,12 @@
 
 As a User
 So that it is a good temperature when I turn it on
-I want to start my thermostat at 20 degrees
+I want to start my thermostat at 20 degrees ✅
 
 As a User
 So I can be warmer
-I want to increase the temperature on my thermostat
+I want to increase the temperature on my thermostat ✅
 
 As a User
 So I can be colder
-I want to decrease the temperature on my thermostat
+I want to decrease the temperature on my thermostat ✅
