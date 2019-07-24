@@ -3,6 +3,8 @@ function Thermostat() {
   this._minimumTemperature = 10;
   this.powerSavingOnMax = 25;
   this.powerSavingOffMax = 32;
+  this._lowUsage = 18;
+  this._mediumUsage = 25;
   this._powerSaver = true;
 };
 
@@ -37,4 +39,14 @@ Thermostat.prototype.powerSaverOn = function() {
 
 Thermostat.prototype.reset = function() {
   return this._temperature = 20
+};
+
+Thermostat.prototype.checkUsage = function(){
+  if(this._temperature < this._lowUsage) {
+    return "low-usage";
+  } else if (this._temperature < this._mediumUsage) {
+    return "medium-usage";
+  } else {
+    return "high-usage"
+  }
 };

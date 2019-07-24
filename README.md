@@ -26,4 +26,8 @@ I want to be able to turn power saving mode off with a maximum temperature of 32
 
 As a User
 So I don't get too confused
-I want to be able to reset my thermostat back to 20
+I want to be able to reset my thermostat back to 20 ✅
+
+As a User
+So I know how much I'm destroying the planet
+I want to know about the thermostats current energy usage
