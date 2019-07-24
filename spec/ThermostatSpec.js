@@ -28,4 +28,9 @@ describe ('Thermostat', function(){
         expect(function(){ thermostat.increase(6); }).toThrow(new Error("Warning! power saving mode on: max temp is 25 degrees"));
     });
 
+    it('has a maximum temperature of 32 degrees if power saving mode is off', function(){
+        thermostat.powerSaverOff();
+        expect(function(){ thermostat.increase(13); }).toThrow(new Error("Warning! max temp is 32 degrees"));
+    });
+
   });

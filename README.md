@@ -18,4 +18,8 @@ I want to have a minimum temperature on my thermostat ✅
 
 As a User
 So I can try to save the planet
-I want to be able to turn power saving mode on with a maximum temperature of 25 degrees
+I want to be able to turn power saving mode on with a maximum temperature of 25 degrees ✅
+
+As a User
+So I can try to destroy the planet
+I want to be able to turn power saving mode off with a maximum temperature of 32 degrees 
